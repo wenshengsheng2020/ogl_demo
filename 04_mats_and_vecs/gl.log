@@ -1,0 +1,4 @@
+GL_LOG_FILE log. local time Wed Jul 21 12:30:23 2021
+
+starting GLFW 3.3.2 X11 GLX EGL OSMesa clock_gettime evdev sharedrenderer: Radeon RX 5300
+version: 4.1.14739 Core Profile Forward-Compatible Context 19.30

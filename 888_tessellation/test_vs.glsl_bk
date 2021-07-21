@@ -1,0 +1,11 @@
+#version 410
+
+layout(location = 0) in vec3 Position;
+uniform mat4 Modelview;
+uniform mat4 Projection;
+
+void main()
+{
+    gl_Position = Projection * Modelview * vec4(Position, 1.0f);
+    //gl_Position = vec4(Position, 1.0f);
+}
